@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    
+
+}
+body{
+    background-color: #72dffe;
+    background-image: url(./background.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.main {
+    width: 100%;
+    height: 110vh;
+}
+.navbar {
+    width: 1200px;
+    height: 80px;
+    margin: auto;
+    padding: 10px;
+    
+   
+}
+.logo {
+    color: black;
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+}
+
+.menu {
+    width: 500px;
+    float: right;
+    height: 80px;
+    
+}
+
+ul {
+    float: left;
+    display: flex;
+    
+}
+
+ul li {
+
+    list-style: none;
+    justify-content: flex-end;
+    align-items: flex-end; 
+    margin-right: 20px;
+    margin-left: 70px;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: rgb(0, 57, 83);
+}
+
+.content {
+    justify-content: left;
+    align-items: left;
+    width: 1200px;
+    height: auto;
+    margin:100px;
+    color: rgb(22, 44, 48);
+    position: relative;
+
+}
+
+.content p {
+    float: left;
+    padding-left: 1px;
+    padding-bottom: 25px;
+    padding-top: 45px;
+    margin-left: -10px;
+    font-size: 23px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+.content h1 {
+    color: rgb(37, 61, 61);
+    font-family: sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 80px;
+    padding-left: 10px;
+    margin-left: 10px;
+    letter-spacing: 2px
+}
+.content h2 {
+    color: rgb(241, 241, 241);
+    font-family: sans-serif ;
+    font-size: 60px;
+    font-weight: bold;
+    
+    padding-left: 10px;
+    margin-left: 10px;
+    letter-spacing: 2px
+}
+
+.content .cn {
+    width: 160px;
+    height: 40px;
+    background: #093d44;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: white;
+    transition: .3s ease;
+}
+
+.cn:hover {
+    background-color: rgb(14, 63, 66);
+    color: #f1fcff;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+@media only screen and (max-width:600px){
+    .main > div {
+        width: 100%;
+    }
+    
+}
